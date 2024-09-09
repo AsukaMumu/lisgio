@@ -1,0 +1,81 @@
+// Footer.scss
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid rgb(94, 94, 94);
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+
+        .bottomimg {
+            height: 60px;
+        }
+    }
+
+    .footer-nav {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        span {
+            margin: 0 10px;
+        }
+    }
+
+    .bottom {
+        margin-top: 20px;
+        font-size: 12px;
+        color: #666;
+    }
+
+    .right {
+        margin-top: 10px;
+        height: 100px;
+        display: flex;
+
+        .wechatimg {
+            height: 100px;
+            width: 100px;
+        }
+
+        .tel {
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items:baseline;
+            gap: 18px;
+
+            i {
+                font-size: 20px;
+                margin-right: 10px;
+                color: #ffffff;
+              }
+        
+              span {
+                font-size: 14px;
+              }
+              a {
+                text-decoration: none;
+                color: inherit;
+        
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+        }
+    }
+}

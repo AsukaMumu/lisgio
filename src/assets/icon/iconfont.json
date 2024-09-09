@@ -1,0 +1,30 @@
+{
+  "id": "4678427",
+  "name": "lisgio",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "400083",
+      "name": "loc",
+      "font_class": "loc",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "2053207",
+      "name": "mail",
+      "font_class": "mail",
+      "unicode": "e6f5",
+      "unicode_decimal": 59125
+    },
+    {
+      "icon_id": "34298336",
+      "name": "tel",
+      "font_class": "tel",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    }
+  ]
+}
