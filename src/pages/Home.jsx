@@ -35,7 +35,18 @@ export default function Home() {
         showControls={true} 
         className="custom-carousel"
       />
-      {/* 其他内容 */}
+      <div className="main">
+        <div className="aboutus">
+
+        </div>
+        <div className='products'>
+
+        </div>
+
+        <div className='standards'>
+
+        </div>
+      </div>
     </div>
   );
 }
