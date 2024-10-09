@@ -24,6 +24,7 @@ export default function Header() {
   const navItems = [
     { to: "/", label: "首页" },
     { to: "/about", label: "关于我们" },
+    { to: "/news", label: "新闻动态" },
     { to: "/products", label: "产品中心" },
     { to: "/standards", label: "工艺标准" },
     { to: "/equipment", label: "设备一览" },
